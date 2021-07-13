@@ -1,3 +1,22 @@
-.promo-products{
-
+.promo-products {
+    display: grid;
+    grid-template-columns: 440px 1fr;
+    grid-gap: 10px;
+    &__header {
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        margin-bottom: 23px;
+    }
+    &__title {
+        font-style: normal;
+        font-weight: bold;
+        font-size: 28px;
+        line-height: 30px;
+        color: #ffffff;
+    }
+    img{
+        max-width: 100%;
+        display: block;
+    }
 }

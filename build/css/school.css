@@ -2189,6 +2189,38 @@ a {
   pointer-events: none;
 }
 
+.promo-products {
+  display: grid;
+  grid-template-columns: 440px 1fr;
+  grid-gap: 10px;
+}
+
+.promo-products__header {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  margin-bottom: 23px;
+}
+
+.promo-products__title {
+  font-style: normal;
+  font-weight: bold;
+  font-size: 28px;
+  line-height: 30px;
+  color: #ffffff;
+}
+
+.promo-products img {
+  max-width: 100%;
+  display: block;
+}
+
 .category-list {
   padding: 40px 0 60px;
   position: relative;
