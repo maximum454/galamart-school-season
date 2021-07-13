@@ -136,6 +136,15 @@ a {
 .v-hidden {
     visibility: hidden!important;
 }
+
+.bg-gray-school{
+    background: linear-gradient(180deg, rgba(233, 242, 242, 0) 0%, #E9F2F2 86.19%);
+    padding-bottom: 40px;
+}
+.bg-purple-school{
+    background: #582876;
+    padding: 40px 0;
+}
 @import "componets/slider-top-school";
 @import "componets/catalog-card";
 @import "componets/product-badge";
@@ -145,5 +154,6 @@ a {
 @import "componets/rating-group";
 @import "componets/rating";
 @import "componets/products-carousel";
+@import "componets/promo-products";
 
 
