@@ -1,0 +1,26 @@
+.products-carousel{
+	margin-bottom: 20px;
+	&__slide {
+		overflow: hidden;
+		border: 1px solid #fff;
+		transition: border .15s ease,box-shadow .15s ease;
+		&:hover {
+			z-index: 1;
+			border-color: #dfdcdf;
+			border-radius: 4px;
+			box-shadow: 0 6px 18px rgba(0, 0, 0 , .1), 0 2px 3px rgba(0, 0, 0 , .09);
+		}
+	}
+	.slick-list {
+		margin-bottom: -20px;
+		padding-bottom: 20px;
+	}
+	&.slick-slider--stretch{
+		.slick-track {
+			display: -ms-inline-flexbox;
+			display: inline-flex;
+			-ms-flex-align: stretch;
+			align-items: stretch;
+		}
+	}
+}

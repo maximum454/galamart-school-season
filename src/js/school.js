@@ -1,5 +1,7 @@
-@@include('./partials/jquery.min.js')
-
 $(function () {
-
+    $(".products-carousel").slick({
+        infinite: false,
+        slidesToShow: 5,
+        slidesToScroll: 1,
+    });
 })

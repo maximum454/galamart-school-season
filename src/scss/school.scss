@@ -8,7 +8,6 @@
 @import "table";
 @import "tabs";
 @import "alert";
-@import "remodal";
 
 * {
     box-sizing: border-box;
@@ -16,7 +15,7 @@
 
 body {
     background-color: #fff;
-    font-family: $font1;
+    font-family: 'PT Sans', sans-serif;
     &.lock {
         overflow: hidden;
     }
@@ -117,13 +116,7 @@ ul {
     text-align: center;
 }
 
-p {
-    color: #333;
-    font-style: normal;
-    font-weight: normal;
-    font-size: 15px;
-    line-height: 20px;
-}
+
 
 .img-fluid {
     max-width: 100%;
@@ -133,74 +126,24 @@ p {
     display: block;
 }
 
-.overdraw {
-    position: absolute;
-    top: 0;
-    left: 0;
-    width: 100%;
-    height: 100%;
-    background: rgba(1, 14, 61, 0.24);
-    z-index: 50;
-    display: none;
-    &.open {
-        display: block;
-    }
+a {
+    cursor: pointer;
+    transition: color .15s ease,background-color .15s ease;
+    color: #fd7400;
+    text-decoration: none;
+    background-color: #0000;
 }
-hr {
-    border-color: rgba(0, 0, 0, 0.08);
+.v-hidden {
+    visibility: hidden!important;
 }
+@import "componets/slider-top-school";
+@import "componets/catalog-card";
+@import "componets/product-badge";
+@import "componets/product-tags";
+@import "componets/product-price";
+@import "componets/status-list";
+@import "componets/rating-group";
+@import "componets/rating";
+@import "componets/products-carousel";
 
-.fancybox-bg {
-    background: rgba(1, 14, 61, 0.7);
-}
-.fancybox-button {
-
-    &--arrow_left {
-        background-color: transparent;
-        width: 22px!important;
-        height: 44px!important;
-        position: relative;
-        padding: 0!important;
-        left: 20px!important;
-        &::before {
-            content: "";
-            position: absolute;
-            top: 0;
-            left: 0;
-            width: 100%;
-            height: 100%;
-            background-position: center;
-            background-repeat: no-repeat;
-            background-image: url("../img/icons-sprite.svg#icon-arrow-funcy");
-            background-size: 100%;
-        }
-        & > div {
-            display: none;
-        }
-    }
-    &--arrow_right {
-        background-color: transparent;
-        width: 22px!important;
-        height: 44px!important;
-        position: relative;
-        padding: 0!important;
-        right: 20px!important;
-        &::before {
-            content: "";
-            position: absolute;
-            top: 0;
-            left: 0;
-            width: 100%;
-            height: 100%;
-            background-position: center;
-            background-repeat: no-repeat;
-            background-image: url("../img/icons-sprite.svg#icon-arrow-funcy");
-            background-size: 100%;
-            transform: rotate(180deg);
-        }
-        & > div {
-            display: none;
-        }
-    }
-}
 
