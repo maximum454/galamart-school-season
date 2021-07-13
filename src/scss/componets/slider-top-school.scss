@@ -1,5 +1,5 @@
 .slider-top-school {
-
+  margin-top: -64px;
   &__title {
     font-style: normal;
     font-weight: bold;
@@ -8,7 +8,8 @@
     color: #000000;
     margin-bottom: 21px;
     position: relative;
-    &:before{
+
+    &:before {
       content: '';
       position: absolute;
       top: 10px;
