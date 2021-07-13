@@ -2221,6 +2221,51 @@ a {
   display: block;
 }
 
+.promo-products .products-carousel__slide {
+  border: none;
+}
+
+.promo-products .slick-dots {
+  list-style: none;
+  display: -ms-flexbox;
+  display: -webkit-box;
+  display: flex;
+  -ms-flex-pack: center;
+  -webkit-box-pack: center;
+          justify-content: center;
+  padding: 20px 0 2px;
+  margin: 0;
+  width: 100%;
+}
+
+.promo-products .slick-dots li {
+  position: relative;
+  margin: 0 6px;
+  padding: 0;
+  cursor: pointer;
+}
+
+.promo-products .slick-dots li button {
+  border: 0;
+  display: block;
+  height: 4px;
+  width: 4px;
+  padding: 0;
+  outline: none;
+  line-height: 0;
+  font-size: 0;
+  color: #0000;
+  cursor: pointer;
+  background-color: #0C7373;
+  border-radius: 50%;
+  opacity: .25;
+}
+
+.promo-products .slick-dots li.slick-active button {
+  color: #0C7373;
+  opacity: 1;
+}
+
 .category-list {
   padding: 40px 0 60px;
   position: relative;

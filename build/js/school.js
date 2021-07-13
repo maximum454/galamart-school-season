@@ -3054,6 +3054,7 @@ $(function () {
         slidesToShow: 4,
         slidesToScroll: 1,
         dots: true,
+        arrows: false,
         slidesPerRow: 1,
         rows: 2,
         responsive: [
@@ -3062,8 +3063,8 @@ $(function () {
                 settings: {
                     slidesToShow: 4,
                     slidesToScroll: 4,
-                    infinite: true,
-                    dots: true
+
+
                 }
             },
             {
@@ -3079,7 +3080,6 @@ $(function () {
                 settings: {
                     slidesToShow: 2,
                     slidesToScroll: 1,
-                    arrows: false,
                     slidesPerRow: 1,
                     rows: 2,
                 }
