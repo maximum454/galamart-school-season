@@ -1,0 +1,151 @@
+.collection-block {
+    background-color: #fff;
+    position: relative;
+    padding: 60px 0;
+    &::before {
+        content: "";
+        position: absolute;
+        top: 0;
+        left: 0;
+        background-image: url("../img/collection-block-decor.svg");
+        background-repeat: no-repeat;
+        background-size: 100%;
+        width: 232px;
+        height: 243px;
+    }
+    &::after {
+        content: "";
+        position: absolute;
+        bottom: 0;
+        right: 0;
+        background-image: url("../img/collection-block-decor2.svg");
+        background-repeat: no-repeat;
+        background-size: 100%;
+        width: 222px;
+        height: 277px;
+    }
+    &__item {
+        margin-bottom: 60px;
+        position: relative;
+        z-index: 10;
+        &:last-child {
+            margin-bottom: 0;
+        }
+        .slick-dots {
+            padding: 13px 0;
+            background-repeat: no-repeat;
+            background-size: cover;
+            background-position: center right;
+            li {
+                position: relative;
+                margin: 0 6px;
+                padding: 0;
+                cursor: pointer;
+                button {
+                    border: 0;
+                    display: block;
+                    height: 4px;
+                    width: 4px;
+                    padding: 0;
+                    outline: none;
+                    line-height: 0;
+                    font-size: 0;
+                    color: #0000;
+                    cursor: pointer;
+                    background-color: #fff;
+                    border-radius: 50%;
+                    opacity: 0.25;
+                }
+                &.slick-active button {
+                    color: #fff;
+                    opacity: 1;
+                }
+            }
+        }
+        &--boy {
+            .collection-block__header {
+                background-image: url("../img/collection-block-boy.png");
+            }
+            .slick-dots {
+                background-image: url("../img/collection-block-boy-footer.png");
+            }
+        }
+        &--girl {
+            .collection-block__header {
+                background-image: url("../img/collection-block-girl.png");
+            }
+            .slick-dots {
+                background-image: url("../img/collection-block-girl-footer.png");
+            }
+        }
+    }
+    &__header {
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        padding: 30px;
+        background-repeat: no-repeat;
+        background-size: cover;
+        background-position: center;
+        border-radius: 10px 10px 0 0;
+    }
+    &__title {
+        font-style: normal;
+        font-weight: bold;
+        font-size: 28px;
+        line-height: 36px;
+
+        color: #ffffff;
+    }
+    @include r(767) {
+        &::before {
+            width: 138px;
+            height: 144px;
+        }
+        &::after {
+           width: 110px;
+           height: 140px;
+        }
+        &__item {
+            margin-bottom: 60px;
+            position: relative;
+            z-index: 10;
+            &:last-child {
+                margin-bottom: 0;
+            }
+            .slick-dots {
+                padding: 8px 0;
+                
+                background-position: center;
+                
+            }
+           
+        }
+        &__header {
+            
+            padding: 7px 10px;
+           
+        }
+        &__title {
+            font-size: 16px;
+            line-height: 18px;
+            max-width: 110px;
+        }
+        .btn-outline-light{
+            width: 16px;
+            height: 16px;
+            color: transparent;
+            border-radius: 50%;
+            font-size: 0;
+            overflow: hidden;
+            display: block;
+            padding: 0;
+            border: 0;
+            background-color: #000;
+            background-image: url('../img/collection-block-btn.svg');
+            background-repeat: no-repeat;
+            background-size: 100%;
+            background-position: center;
+        }
+    }
+}
