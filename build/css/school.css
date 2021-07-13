@@ -1764,6 +1764,17 @@ a {
   padding: 40px 0;
 }
 
+.banner-top-school {
+  overflow: hidden;
+  position: relative;
+}
+
+.banner-top-school__img {
+  display: block;
+  margin: 0 auto;
+  height: auto;
+}
+
 .slider-top-school__title {
   font-style: normal;
   font-weight: bold;
@@ -1778,9 +1789,10 @@ a {
   content: '';
   position: absolute;
   top: 10px;
-  left: -102%;
+  left: -260px;
   background-image: url("../img/slider-top-school-decor-title.svg");
-  width: 100%;
+  background-repeat: no-repeat;
+  width: 237px;
   height: 20px;
 }
 
@@ -2231,6 +2243,11 @@ a {
 
   .d-mobile-none {
     display: none !important;
+  }
+
+  .banner-top-school__img {
+    left: -300px;
+    position: relative;
   }
 
   .slider-top-school__title {

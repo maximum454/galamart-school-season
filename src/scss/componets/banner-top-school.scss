@@ -1,0 +1,15 @@
+.banner-top-school{
+	overflow: hidden;
+	position: relative;
+	&__img{
+		display: block;
+		margin: 0 auto;
+		height: auto;
+	}
+	@include r(767){
+		&__img{
+			left: -300px;
+			position: relative;
+		}
+	}
+}
