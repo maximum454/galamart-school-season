@@ -2603,7 +2603,7 @@ a {
 }
 
 .category-tabs__sort-price::before {
-  content: '';
+  content: "";
   position: absolute;
   top: 2px;
   right: -12px;
@@ -2627,6 +2627,65 @@ a {
   font-size: 14px;
   line-height: 12px;
   color: #fd7400;
+}
+
+.category-tabs__pagination {
+  margin: 20px 0;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+
+.category-tabs__pagination ul {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  gap: 15px;
+}
+
+.category-tabs__pagination ul li {
+  margin: 0;
+}
+
+.category-tabs__pagination ul a {
+  font-style: normal;
+  font-weight: normal;
+  font-size: 15px;
+  line-height: 19px;
+  text-align: center;
+  color: #8a8a8a;
+  padding: 0 5px;
+}
+
+.category-tabs__pagination ul a.active {
+  border: 1px solid #fd7400;
+  border-radius: 3px;
+}
+
+.category-tabs__pagination .btn {
+  margin: auto;
+}
+
+.category-tabs__pagination-control {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  gap: 15px;
 }
 
 @media only screen and (max-width: 1023px) {
@@ -2769,6 +2828,27 @@ a {
     grid-template-columns: 1fr 1fr;
     border-top: #eeeeee solid 1px;
     padding-top: 10px;
+  }
+
+  .category-tabs__pagination {
+    margin: 20px 0;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    -webkit-box-pack: justify;
+        -ms-flex-pack: justify;
+            justify-content: space-between;
+  }
+
+  .category-tabs__pagination ul {
+    display: none;
+  }
+
+  .category-tabs__pagination-control {
+    display: none;
   }
 }
 
