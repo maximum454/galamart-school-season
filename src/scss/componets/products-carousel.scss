@@ -57,4 +57,44 @@
 			}
 		}
 	}
+
+	.slick-arrow{
+		position: absolute;
+		z-index: 1;
+		display: flex;
+		align-items: center;
+		width: 50px;
+		height: 50px;
+		background: #FFFFFF;
+		color: transparent;
+		top: 50%;
+		font-size: 24px;
+		transform: translateY(-50%);
+		border-radius: 50%;
+		transition: background-color .15s ease;
+		border: none;
+		opacity: 1;
+		background-image: url("../img/arrow-slick.svg");
+		background-repeat: no-repeat;
+		background-position: center;
+		background-size: 8px 16px;
+	}
+	.slick-prev{
+		left: -25px;
+		transform: translateY(-50%) rotate(180deg);
+	}
+	.slick-next{
+		right: -25px;
+	}
+	.slick-disabled{
+		opacity: 0;
+		pointer-events: none;
+	}
+	@include r(374){
+		.slick-slide{
+			img{
+				width: 100%;
+			}
+		}
+	}
 }
