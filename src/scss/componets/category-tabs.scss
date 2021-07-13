@@ -1,5 +1,28 @@
 .category-tabs {
     padding: 60px 0;
+    position: relative;
+    &::before {
+        content: "";
+        position: absolute;
+        top: 30%;
+        left: 0;
+        background-image: url("../img/category-tabs-decor.svg");
+        background-repeat: no-repeat;
+        background-size: 100%;
+        width: 51px;
+        height: 55px;
+    }
+    &::after {
+        content: "";
+        position: absolute;
+        bottom: 15%;
+        right: 0;
+        background-image: url("../img/category-tabs-decor2.svg");
+        background-repeat: no-repeat;
+        background-size: 100%;
+        width: 51px;
+        height: 60px;
+    }
     &__header {
         margin-bottom: 36px;
         padding: 0 20px;
