@@ -1,8 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="7d3a13b3-62ca-4e1f-95cb-3fa85a1ec322" name="Default Changelist" comment="fix">
-      <change afterPath="$PROJECT_DIR$/src/img/swiper-arrow.svg" afterDir="false" />
+    <list default="true" id="7d3a13b3-62ca-4e1f-95cb-3fa85a1ec322" name="Default Changelist" comment="slider">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/build/css/school.css" beforeDir="false" afterPath="$PROJECT_DIR$/build/css/school.css" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/build/css/school.min.css" beforeDir="false" afterPath="$PROJECT_DIR$/build/css/school.min.css" afterDir="false" />
@@ -12,7 +11,6 @@
       <change beforePath="$PROJECT_DIR$/src/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/index.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/js/school.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/js/school.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/scss/componets/category-tabs.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/scss/componets/category-tabs.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/scss/componets/promo-group.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/scss/componets/promo-group.scss" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -74,7 +72,7 @@
       <updated>1626067236087</updated>
       <workItem from="1626067238340" duration="767000" />
       <workItem from="1626150997963" duration="14769000" />
-      <workItem from="1626233719583" duration="9711000" />
+      <workItem from="1626233719583" duration="10331000" />
     </task>
     <task id="LOCAL-00001" summary="project">
       <created>1626068038681</created>
@@ -251,7 +249,14 @@
       <option name="project" value="LOCAL" />
       <updated>1626242207766</updated>
     </task>
-    <option name="localTasksCounter" value="26" />
+    <task id="LOCAL-00026" summary="slider">
+      <created>1626244318220</created>
+      <option name="number" value="00026" />
+      <option name="presentableId" value="LOCAL-00026" />
+      <option name="project" value="LOCAL" />
+      <updated>1626244318220</updated>
+    </task>
+    <option name="localTasksCounter" value="27" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -275,11 +280,11 @@
     <MESSAGE value="fix slider adap" />
     <MESSAGE value="banner-top-school" />
     <MESSAGE value="category-list" />
-    <MESSAGE value="slider" />
     <MESSAGE value="slider img" />
     <MESSAGE value="fix slider" />
     <MESSAGE value="fix" />
-    <option name="LAST_COMMIT_MESSAGE" value="fix" />
+    <MESSAGE value="slider" />
+    <option name="LAST_COMMIT_MESSAGE" value="slider" />
   </component>
   <component name="XSLT-Support.FileAssociations.UIState">
     <expand />

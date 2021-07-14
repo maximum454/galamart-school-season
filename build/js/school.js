@@ -3101,10 +3101,24 @@ $(function () {
         watchSlidesVisibility: true,
         watchSlidesProgress: true,
         observer: true,
+        observeParents: true,
         slidesOffsetAfter:0,
         navigation: {
             nextEl: '.swiper-button-next',
             prevEl: '.swiper-button-prev',
         },
+    });
+
+    $('.tabs a').on('click',function(e) {
+        e.preventDefault();
+        $('.tabs a').removeClass('active');
+        $(this).addClass('active');
+        var tab = $(this).attr('href');
+
+        $('.tab-block').not(tab).css({
+            'display': 'none'
+        });
+
+        $(tab).fadeIn(400);
     });
 })

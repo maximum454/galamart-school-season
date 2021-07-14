@@ -2715,6 +2715,8 @@ a {
 }
 
 .category-tabs__menu-item {
+  display: block;
+  text-decoration: none;
   font-style: normal;
   font-weight: bold;
   font-size: 14px;
@@ -2744,6 +2746,8 @@ a {
   grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
   border-top: #eeeeee solid 1px;
   padding-top: 10px;
+  position: relative;
+  z-index: 10;
 }
 
 .category-tabs__main .products-carousel__slide {
