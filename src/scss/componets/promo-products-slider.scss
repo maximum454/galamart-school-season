@@ -1,10 +1,35 @@
 .promo-products-slider{
+	position: relative;
+	&:before{
+		z-index: 10;
+		content: 'Скоро в продаже';
+		position: absolute;
+		top: 30px;
+		left: -20px;
+		background-image: url("../img/slider-label.svg");
+		background-size: 100%;
+		background-repeat: no-repeat;
+		background-position: center;
+		font-style: normal;
+		font-weight: bold;
+		font-size: 16px;
+		line-height: 21px;
+		text-transform: uppercase;
+		color: #FFFFFF;
+		width: 177px;
+		height: 64px;
+		display: flex;
+		align-items: center;
+		justify-content: center;
+		pointer-events: none;
+	}
 	&__item{
 		background-color: #fff;
 		border-radius: 10px;
 		overflow: hidden;
 		padding: 18px;
 	}
+
 	&__img{
 		margin-bottom: 10px;
 	}

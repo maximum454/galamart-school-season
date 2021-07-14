@@ -1,3 +1,5 @@
+@charset "UTF-8";
+
 /*! normalize.css v5.0.0 | MIT License | github.com/necolas/normalize.css */
 
 /**
@@ -2895,6 +2897,40 @@ a {
 .promo-group__item img {
   max-width: 100%;
   display: block;
+}
+
+.promo-products-slider {
+  position: relative;
+}
+
+.promo-products-slider:before {
+  z-index: 10;
+  content: 'Скоро в продаже';
+  position: absolute;
+  top: 30px;
+  left: -20px;
+  background-image: url("../img/slider-label.svg");
+  background-size: 100%;
+  background-repeat: no-repeat;
+  background-position: center;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 16px;
+  line-height: 21px;
+  text-transform: uppercase;
+  color: #FFFFFF;
+  width: 177px;
+  height: 64px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  pointer-events: none;
 }
 
 .promo-products-slider__item {
