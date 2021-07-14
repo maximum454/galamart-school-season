@@ -144,6 +144,31 @@ a {
 .bg-purple-school{
     background: #582876;
     padding: 40px 0;
+    position: relative;
+    &:before{
+        content: '';
+        position: absolute;
+        top: 40%;
+        right: 0;
+        background-image: url("../img/bg-purple-school-decor.svg");
+        background-size: 100%;
+        background-repeat: no-repeat;
+        width: 148px;
+        height: 123px;
+        pointer-events: none;
+    }
+    &:before{
+        content: '';
+        position: absolute;
+        top: 50%;
+        left: 20px;
+        background-image: url("../img/bg-purple-school-decor2.svg");
+        background-size: 100%;
+        background-repeat: no-repeat;
+        width: 24px;
+        height: 25px;
+        pointer-events: none;
+    }
 }
 @import "componets/banner-top-school";
 @import "componets/slider-top-school";
@@ -160,5 +185,6 @@ a {
 @import "componets/collection-block";
 @import "componets/category-tabs";
 @import "componets/promo-group";
+@import "componets/promo-products-slider";
 
 

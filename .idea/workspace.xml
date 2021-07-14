@@ -1,11 +1,18 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="7d3a13b3-62ca-4e1f-95cb-3fa85a1ec322" name="Default Changelist" comment="slider img">
+    <list default="true" id="7d3a13b3-62ca-4e1f-95cb-3fa85a1ec322" name="Default Changelist" comment="fix">
+      <change afterPath="$PROJECT_DIR$/src/img/bg-purple-school-decor.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/img/bg-purple-school-decor2.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/img/promo-products-slider1.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/scss/componets/promo-products-slider.scss" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/build/css/school.css" beforeDir="false" afterPath="$PROJECT_DIR$/build/css/school.css" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/build/css/school.min.css" beforeDir="false" afterPath="$PROJECT_DIR$/build/css/school.min.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/build/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/index.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/scss/componets/promo-products.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/scss/componets/promo-products.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/scss/school.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/scss/school.scss" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -36,7 +43,7 @@
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/src/js/partials" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/src/img" />
     <property name="list.type.of.created.stylesheet" value="SCSS" />
     <property name="node.js.detected.package.eslint" value="true" />
     <property name="node.js.detected.package.tslint" value="true" />
@@ -48,8 +55,8 @@
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
-      <recent name="$PROJECT_DIR$/src/js/partials" />
       <recent name="$PROJECT_DIR$/src/img" />
+      <recent name="$PROJECT_DIR$/src/js/partials" />
       <recent name="$PROJECT_DIR$/src/scss" />
       <recent name="$PROJECT_DIR$" />
     </key>
@@ -67,7 +74,7 @@
       <updated>1626067236087</updated>
       <workItem from="1626067238340" duration="767000" />
       <workItem from="1626150997963" duration="14769000" />
-      <workItem from="1626233719583" duration="4950000" />
+      <workItem from="1626233719583" duration="5921000" />
     </task>
     <task id="LOCAL-00001" summary="project">
       <created>1626068038681</created>
@@ -216,7 +223,14 @@
       <option name="project" value="LOCAL" />
       <updated>1626238862306</updated>
     </task>
-    <option name="localTasksCounter" value="22" />
+    <task id="LOCAL-00022" summary="fix">
+      <created>1626239090200</created>
+      <option name="number" value="00022" />
+      <option name="presentableId" value="LOCAL-00022" />
+      <option name="project" value="LOCAL" />
+      <updated>1626239090201</updated>
+    </task>
+    <option name="localTasksCounter" value="23" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -240,10 +254,10 @@
     <MESSAGE value="fix slider adap" />
     <MESSAGE value="banner-top-school" />
     <MESSAGE value="category-list" />
-    <MESSAGE value="fix" />
     <MESSAGE value="slider" />
     <MESSAGE value="slider img" />
-    <option name="LAST_COMMIT_MESSAGE" value="slider img" />
+    <MESSAGE value="fix" />
+    <option name="LAST_COMMIT_MESSAGE" value="fix" />
   </component>
   <component name="XSLT-Support.FileAssociations.UIState">
     <expand />

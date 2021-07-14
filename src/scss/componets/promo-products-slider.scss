@@ -1,0 +1,25 @@
+.promo-products-slider{
+	&__item{
+		background-color: #fff;
+		border-radius: 10px;
+		overflow: hidden;
+		padding: 18px;
+	}
+	&__img{
+		margin-bottom: 10px;
+	}
+	&__name{
+		font-style: normal;
+		font-weight: normal;
+		font-size: 20px;
+		line-height: 17px;
+		text-align: center;
+		color: #333333;
+		margin-bottom: 20px;
+	}
+	.btn{
+		margin: 0 auto 37px;
+		width: fit-content;
+		display: block;
+	}
+}

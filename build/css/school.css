@@ -1762,6 +1762,33 @@ a {
 .bg-purple-school {
   background: #582876;
   padding: 40px 0;
+  position: relative;
+}
+
+.bg-purple-school:before {
+  content: '';
+  position: absolute;
+  top: 40%;
+  right: 0;
+  background-image: url("../img/bg-purple-school-decor.svg");
+  background-size: 100%;
+  background-repeat: no-repeat;
+  width: 148px;
+  height: 123px;
+  pointer-events: none;
+}
+
+.bg-purple-school:before {
+  content: '';
+  position: absolute;
+  top: 50%;
+  left: 20px;
+  background-image: url("../img/bg-purple-school-decor2.svg");
+  background-size: 100%;
+  background-repeat: no-repeat;
+  width: 24px;
+  height: 25px;
+  pointer-events: none;
 }
 
 .banner-top-school {
@@ -2194,6 +2221,7 @@ a {
   grid-template-columns: 440px minmax(300px, 900px);
   grid-gap: 10px;
   margin: 30px 0;
+  position: relative;
 }
 
 .promo-products.revert {
@@ -2869,6 +2897,35 @@ a {
   display: block;
 }
 
+.promo-products-slider__item {
+  background-color: #fff;
+  border-radius: 10px;
+  overflow: hidden;
+  padding: 18px;
+}
+
+.promo-products-slider__img {
+  margin-bottom: 10px;
+}
+
+.promo-products-slider__name {
+  font-style: normal;
+  font-weight: normal;
+  font-size: 20px;
+  line-height: 17px;
+  text-align: center;
+  color: #333333;
+  margin-bottom: 20px;
+}
+
+.promo-products-slider .btn {
+  margin: 0 auto 37px;
+  width: -webkit-fit-content;
+  width: -moz-fit-content;
+  width: fit-content;
+  display: block;
+}
+
 @media only screen and (max-width: 1023px) {
   .tabs__caption {
     overflow-x: scroll;
@@ -2962,6 +3019,11 @@ a {
     background-repeat: no-repeat;
     background-size: 100%;
     background-position: center;
+  }
+
+  .promo-products__title {
+    font-size: 18px;
+    line-height: 23px;
   }
 
   .promo-products__grid {
