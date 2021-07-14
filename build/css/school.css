@@ -2911,6 +2911,14 @@ a {
   gap: 15px;
 }
 
+.category-tabs .tab-block {
+  display: none;
+}
+
+.category-tabs .tab-block.active {
+  display: block;
+}
+
 .category-tabs .swiper-slide {
   width: -webkit-fit-content;
   width: -moz-fit-content;

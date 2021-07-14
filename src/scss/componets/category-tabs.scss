@@ -184,6 +184,12 @@
         align-items: center;
         gap: 15px;
     }
+    .tab-block{
+        display: none;
+        &.active{
+            display: block;
+        }
+    }
     .swiper-slide{
         width: fit-content;
     }
