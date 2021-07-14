@@ -1,6 +1,6 @@
 .promo-products {
     display: grid;
-    grid-template-columns: 440px minmax(500px,900px);
+    grid-template-columns: 440px minmax(300px,900px);
     grid-gap: 10px;
     margin: 30px 0;
     &.revert{
@@ -30,7 +30,14 @@
         color: #ffffff;
     }
 
-    &__left{}
+    &__left{
+        img{
+            max-width: 100%;
+            width: 100%;
+            display: block;
+            object-fit: cover;
+        }
+    }
     &__right{
         .slick-list{
             border-radius: 10px;
@@ -59,10 +66,7 @@
             object-fit: cover;
         }
     }
-    img{
-        max-width: 100%;
-        display: block;
-    }
+
     .products-carousel__slide{
         border: none;
         max-width: 900px;
@@ -130,5 +134,9 @@
                 opacity: 1;
             }
         }
+    }
+
+    @include r(767){
+        display: block;
     }
 }

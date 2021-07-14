@@ -57,6 +57,20 @@ $(function () {
         rows: 2,
         responsive: [
             {
+                breakpoint: 1023,
+                settings: {
+                    slidesPerRow: 3,
+                    rows: 2,
+                }
+            },
+            {
+                breakpoint: 920,
+                settings: {
+                    slidesPerRow: 2,
+                    rows: 2,
+                }
+            },
+            {
                 breakpoint: 767,
                 settings: {
                     slidesPerRow: 2,
