@@ -1,25 +1,21 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
-  <component name="BranchesTreeState">
-    <expand>
-      <path>
-        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
-        <item name="LOCAL_ROOT" type="e8cecc67:BranchNodeDescriptor" />
-      </path>
-      <path>
-        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
-        <item name="REMOTE_ROOT" type="e8cecc67:BranchNodeDescriptor" />
-      </path>
-      <path>
-        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
-        <item name="REMOTE_ROOT" type="e8cecc67:BranchNodeDescriptor" />
-        <item name="GROUP_NODE:origin" type="e8cecc67:BranchNodeDescriptor" />
-      </path>
-    </expand>
-    <select />
-  </component>
   <component name="ChangeListManager">
-    <list default="true" id="34c2b965-ce74-4863-9bb9-73c226ca722b" name="Default Changelist" comment="" />
+    <list default="true" id="7d3a13b3-62ca-4e1f-95cb-3fa85a1ec322" name="Default Changelist" comment="fix">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/css/school.css" beforeDir="false" afterPath="$PROJECT_DIR$/build/css/school.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/css/school.min.css" beforeDir="false" afterPath="$PROJECT_DIR$/build/css/school.min.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/img/promo1.png" beforeDir="false" afterPath="$PROJECT_DIR$/build/img/promo1.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/img/promo2.png" beforeDir="false" afterPath="$PROJECT_DIR$/build/img/promo2.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/img/promo3.png" beforeDir="false" afterPath="$PROJECT_DIR$/build/img/promo3.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/img/promo4.png" beforeDir="false" afterPath="$PROJECT_DIR$/build/img/promo4.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/build/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/js/school.js" beforeDir="false" afterPath="$PROJECT_DIR$/build/js/school.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/js/school.min.js" beforeDir="false" afterPath="$PROJECT_DIR$/build/js/school.min.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/js/school.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/js/school.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/scss/componets/promo-products.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/scss/componets/promo-products.scss" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -28,39 +24,180 @@
   <component name="ComposerSettings">
     <execution />
   </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="JavaScript File" />
+        <option value="SCSS File" />
+      </list>
+    </option>
+  </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
-  <component name="ProjectId" id="1vGmrFtw4a4sOF7TNzut0LJx4Yt" />
+  <component name="ProjectId" id="1vCXqVkOaGBbIZ8zObExj4ANBnZ" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
   <component name="PropertiesComponent">
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/src/js/partials" />
+    <property name="list.type.of.created.stylesheet" value="SCSS" />
+    <property name="node.js.detected.package.eslint" value="true" />
+    <property name="node.js.detected.package.tslint" value="true" />
+    <property name="node.js.selected.package.eslint" value="(autodetect)" />
+    <property name="node.js.selected.package.tslint" value="(autodetect)" />
     <property name="nodejs_package_manager_path" value="npm" />
+    <property name="settings.editor.selected.configurable" value="preferences.fileTypes" />
     <property name="vue.rearranger.settings.migration" value="true" />
+  </component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/src/js/partials" />
+      <recent name="$PROJECT_DIR$/src/img" />
+      <recent name="$PROJECT_DIR$/src/scss" />
+      <recent name="$PROJECT_DIR$" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/src/img" />
+    </key>
   </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
-      <changelist id="34c2b965-ce74-4863-9bb9-73c226ca722b" name="Default Changelist" comment="" />
-      <created>1626196997142</created>
+      <changelist id="7d3a13b3-62ca-4e1f-95cb-3fa85a1ec322" name="Default Changelist" comment="" />
+      <created>1626067236087</created>
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
-      <updated>1626196997142</updated>
-      <workItem from="1626196998496" duration="827000" />
+      <updated>1626067236087</updated>
+      <workItem from="1626067238340" duration="767000" />
+      <workItem from="1626150997963" duration="14769000" />
+      <workItem from="1626233719583" duration="2699000" />
     </task>
-    <task id="LOCAL-00001" summary="fix">
-      <created>1626197822792</created>
+    <task id="LOCAL-00001" summary="project">
+      <created>1626068038681</created>
       <option name="number" value="00001" />
       <option name="presentableId" value="LOCAL-00001" />
       <option name="project" value="LOCAL" />
-      <updated>1626197822792</updated>
+      <updated>1626068038681</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="fix">
+      <created>1626151533628</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1626151533628</updated>
+    </task>
+    <task id="LOCAL-00003" summary="slider-top-school">
+      <created>1626157127930</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1626157127930</updated>
+    </task>
+    <task id="LOCAL-00004" summary="fix">
+      <created>1626158577532</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1626158577532</updated>
+    </task>
+    <task id="LOCAL-00005" summary="fix slider adap">
+      <created>1626164920059</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1626164920059</updated>
+    </task>
+    <task id="LOCAL-00006" summary="banner-top-school">
+      <created>1626165306118</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1626165306118</updated>
+    </task>
+    <task id="LOCAL-00007" summary="fix">
+      <created>1626175592981</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1626175592981</updated>
+    </task>
+    <task id="LOCAL-00008" summary="fix">
+      <created>1626178608674</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1626178608674</updated>
+    </task>
+    <task id="LOCAL-00009" summary="category-list">
+      <created>1626179010266</created>
+      <option name="number" value="00009" />
+      <option name="presentableId" value="LOCAL-00009" />
+      <option name="project" value="LOCAL" />
+      <updated>1626179010266</updated>
+    </task>
+    <task id="LOCAL-00010" summary="category-list">
+      <created>1626179120432</created>
+      <option name="number" value="00010" />
+      <option name="presentableId" value="LOCAL-00010" />
+      <option name="project" value="LOCAL" />
+      <updated>1626179120432</updated>
+    </task>
+    <task id="LOCAL-00011" summary="fix">
+      <created>1626234098606</created>
+      <option name="number" value="00011" />
+      <option name="presentableId" value="LOCAL-00011" />
+      <option name="project" value="LOCAL" />
+      <updated>1626234098606</updated>
+    </task>
+    <task id="LOCAL-00012" summary="fix">
+      <created>1626234396867</created>
+      <option name="number" value="00012" />
+      <option name="presentableId" value="LOCAL-00012" />
+      <option name="project" value="LOCAL" />
+      <updated>1626234396867</updated>
+    </task>
+    <task id="LOCAL-00013" summary="fix">
+      <created>1626234609298</created>
+      <option name="number" value="00013" />
+      <option name="presentableId" value="LOCAL-00013" />
+      <option name="project" value="LOCAL" />
+      <updated>1626234609298</updated>
+    </task>
+    <task id="LOCAL-00014" summary="fix">
+      <created>1626234661521</created>
+      <option name="number" value="00014" />
+      <option name="presentableId" value="LOCAL-00014" />
+      <option name="project" value="LOCAL" />
+      <updated>1626234661521</updated>
+    </task>
+    <task id="LOCAL-00015" summary="fix">
+      <created>1626234865759</created>
+      <option name="number" value="00015" />
+      <option name="presentableId" value="LOCAL-00015" />
+      <option name="project" value="LOCAL" />
+      <updated>1626234865759</updated>
+    </task>
+    <task id="LOCAL-00016" summary="fix">
+      <created>1626235064277</created>
+      <option name="number" value="00016" />
+      <option name="presentableId" value="LOCAL-00016" />
+      <option name="project" value="LOCAL" />
+      <updated>1626235064277</updated>
+    </task>
+    <task id="LOCAL-00017" summary="fix">
+      <created>1626235067413</created>
+      <option name="number" value="00017" />
+      <option name="presentableId" value="LOCAL-00017" />
+      <option name="project" value="LOCAL" />
+      <updated>1626235067413</updated>
+    </task>
+    <option name="localTasksCounter" value="18" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -76,15 +213,19 @@
         </entry>
       </map>
     </option>
+    <option name="oldMeFiltersMigrated" value="true" />
   </component>
   <component name="VcsManagerConfiguration">
+    <MESSAGE value="project" />
+    <MESSAGE value="slider-top-school" />
+    <MESSAGE value="fix slider adap" />
+    <MESSAGE value="banner-top-school" />
+    <MESSAGE value="category-list" />
     <MESSAGE value="fix" />
     <option name="LAST_COMMIT_MESSAGE" value="fix" />
   </component>
-  <component name="WindowStateProjectService">
-    <state x="552" y="240" key="Vcs.Push.Dialog.v2" timestamp="1626197827578">
-      <screen x="0" y="0" width="1920" height="1040" />
-    </state>
-    <state x="552" y="240" key="Vcs.Push.Dialog.v2/0.0.1920.1040@0.0.1920.1040" timestamp="1626197827578" />
+  <component name="XSLT-Support.FileAssociations.UIState">
+    <expand />
+    <select />
   </component>
 </project>

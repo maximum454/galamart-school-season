@@ -2191,7 +2191,7 @@ a {
 
 .promo-products {
   display: grid;
-  grid-template-columns: 440px 1fr;
+  grid-template-columns: 440px 900px;
   grid-gap: 10px;
   margin: 30px 0;
 }
@@ -2291,13 +2291,13 @@ a {
   font-size: 0;
   color: #0000;
   cursor: pointer;
-  background-color: #0C7373;
+  background-color: #fff;
   border-radius: 50%;
   opacity: .25;
 }
 
 .promo-products .slick-dots li.slick-active button {
-  color: #0C7373;
+  color: #fff;
   opacity: 1;
 }
 

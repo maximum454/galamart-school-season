@@ -3051,43 +3051,31 @@ $(function () {
 
     const promoSetting = {
         infinite: false,
-        slidesToShow: 4,
+        slidesToShow: 1,
         slidesToScroll: 1,
         dots: true,
         arrows: false,
-        slidesPerRow: 1,
+    }
+    const productsPromo = $(".promo-products-slider").slick(promoSetting);
+
+    const promoGridSetting = {
+        infinite: false,
+        slidesToShow: 1,
+        slidesToScroll: 1,
+        dots: true,
+        arrows: false,
+        slidesPerRow: 4,
         rows: 2,
         responsive: [
             {
-                breakpoint: 1023,
-                settings: {
-                    slidesToShow: 4,
-                    slidesToScroll: 4,
-
-
-                }
-            },
-            {
                 breakpoint: 767,
                 settings: {
-                    slidesToShow: 3,
-                    slidesToScroll: 3,
-                    rows: 1,
-                }
-            },
-            {
-                breakpoint: 480,
-                settings: {
-                    slidesToShow: 2,
-                    slidesToScroll: 1,
-                    slidesPerRow: 1,
+                    slidesPerRow: 2,
                     rows: 2,
                 }
             }
         ]
     }
-    const productsPromo = $(".products-promo-slider").slick(promoSetting);
-
-
+    const productsGrid = $(".promo-products-grid").slick(promoGridSetting);
 
 })
