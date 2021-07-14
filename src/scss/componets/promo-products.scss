@@ -60,12 +60,40 @@
         height: 100%;
         overflow: hidden;
         border-radius: 10px;
+        position: relative;
         img{
             max-width: 100%;
             display: block;
             height: 100%;
             object-fit: cover;
         }
+        .btn{
+            padding: 13px 57px;
+            font-weight: 800;
+            font-size: 16px;
+            text-transform: uppercase;
+        }
+
+    }
+    &__slider-banner-img{
+
+    }
+    &__slider-banner-txt{
+        position: absolute;
+        top: 60px;
+        margin: 0 auto;
+        text-align: center;
+        width: 100%;
+        padding: 20px;
+    }
+    &__slider-banner-name{
+        font-style: normal;
+        font-weight: bold;
+        font-size: 40px;
+        line-height: 50px;
+        text-align: center;
+        color: #FFFFFF;
+        margin-bottom: 20px;
     }
 
     .products-carousel__slide{
@@ -168,6 +196,30 @@
         }
         &__left{
             margin-bottom: 10px;
+        }
+        &__slider-banner{
+            height: 160px;
+            .btn{
+                font-size: 10px;
+                line-height: 12px;
+            }
+
+        }
+        &__slider-banner-img{
+        }
+        &__slider-banner-txt{
+            position: absolute;
+            top: 50%;
+            right: 0;
+            transform: translate(0,-50%);
+            margin: 0 auto;
+            text-align: center;
+            width: fit-content;
+        }
+        &__slider-banner-name{
+            font-size: 18px;
+            line-height: 50px;
+            margin-bottom: 0;
         }
     }
 }
