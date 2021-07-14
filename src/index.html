@@ -10,6 +10,9 @@
     <link href="https://fonts.googleapis.com/css2?family=PT+Sans:ital,wght@0,400;0,700;1,400;1,700&display=swap"
         rel="stylesheet">
     <link rel="stylesheet" type="text/css" href="//cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.css" />
+
+    <link rel="stylesheet" href="https://unpkg.com/swiper/swiper-bundle.css" />
+    <link rel="stylesheet" href="https://unpkg.com/swiper/swiper-bundle.min.css" />
     <link rel="stylesheet" href="css/school.min.css">
 </head>
 
@@ -3232,15 +3235,25 @@
             <div class='category-tabs'>
                 <div class="container">
                     <div class="category-tabs__header">
-                        <div class="category-tabs__menu">
-                            <div class="category-tabs__menu-item active">Все товары</div>
-                            <div class="category-tabs__menu-item">Рюкзаки</div>
-                            <div class="category-tabs__menu-item">Коллекции для мальчиков</div>
-                            <div class="category-tabs__menu-item">Коллекции для девочек</div>
-                            <div class="category-tabs__menu-item">Тетради и блокноты</div>
-                            <div class="category-tabs__menu-item">Ручки и канцтовары</div>
-                            <div class="category-tabs__menu-item">Для творческих занятий</div>
-                            <div class="category-tabs__menu-item">Рабочее место</div>
+                        <div class="category-tabs__menu category-tabs-slider">
+                            <div class="swiper-container swiper-category-tabs">
+                                <div class="swiper-wrapper">
+                                    <div class="swiper-slide"><div class="category-tabs__menu-item active">Все товары</div></div>
+                                    <div class="swiper-slide"><div class="category-tabs__menu-item">Рюкзаки</div></div>
+                                    <div class="swiper-slide"><div class="category-tabs__menu-item">Коллекции для мальчиков</div></div>
+                                    <div class="swiper-slide"><div class="category-tabs__menu-item">Коллекции для девочек</div></div>
+                                    <div class="swiper-slide"><div class="category-tabs__menu-item">Тетради и блокноты</div></div>
+                                    <div class="swiper-slide"><div class="category-tabs__menu-item">Ручки и канцтовары</div></div>
+                                    <div class="swiper-slide"><div class="category-tabs__menu-item">Для творческих занятий</div></div>
+                                    <div class="swiper-slide"><div class="category-tabs__menu-item">Рабочее место</div></div>
+                                    <div class="swiper-slide"><div class="category-tabs__menu-item">Рабочее место</div></div>
+                                    <div class="swiper-slide"><div class="category-tabs__menu-item">Рабочее место</div></div>
+                                </div>
+
+                            </div>
+                            <div class="swiper-button-prev"></div>
+                            <div class="swiper-button-next"></div>
+
                         </div>
                     </div>
                     <div class="category-tabs__sort">
@@ -4617,15 +4630,25 @@
                         </div>
                     </div>
                     <div class="category-tabs__footer">
-                        <div class="category-tabs__menu">
-                            <div class="category-tabs__menu-item active">Все товары</div>
-                            <div class="category-tabs__menu-item">Рюкзаки</div>
-                            <div class="category-tabs__menu-item">Коллекции для мальчиков</div>
-                            <div class="category-tabs__menu-item">Коллекции для девочек</div>
-                            <div class="category-tabs__menu-item">Тетради и блокноты</div>
-                            <div class="category-tabs__menu-item">Ручки и канцтовары</div>
-                            <div class="category-tabs__menu-item">Для творческих занятий</div>
-                            <div class="category-tabs__menu-item">Рабочее место</div>
+                        <div class="category-tabs__menu category-tabs-slider">
+                            <div class="swiper-container swiper-category-tabs">
+                                <div class="swiper-wrapper">
+                                    <div class="swiper-slide"><div class="category-tabs__menu-item active">Все товары</div></div>
+                                    <div class="swiper-slide"><div class="category-tabs__menu-item">Рюкзаки</div></div>
+                                    <div class="swiper-slide"><div class="category-tabs__menu-item">Коллекции для мальчиков</div></div>
+                                    <div class="swiper-slide"><div class="category-tabs__menu-item">Коллекции для девочек</div></div>
+                                    <div class="swiper-slide"><div class="category-tabs__menu-item">Тетради и блокноты</div></div>
+                                    <div class="swiper-slide"><div class="category-tabs__menu-item">Ручки и канцтовары</div></div>
+                                    <div class="swiper-slide"><div class="category-tabs__menu-item">Для творческих занятий</div></div>
+                                    <div class="swiper-slide"><div class="category-tabs__menu-item">Рабочее место</div></div>
+                                    <div class="swiper-slide"><div class="category-tabs__menu-item">Рабочее место</div></div>
+                                    <div class="swiper-slide"><div class="category-tabs__menu-item">Рабочее место</div></div>
+                                </div>
+
+                            </div>
+                            <div class="swiper-button-prev"></div>
+                            <div class="swiper-button-next"></div>
+
                         </div>
                     </div>
                 </div>
@@ -4635,7 +4658,7 @@
         </main>
     </div>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
-
+    <script src="https://unpkg.com/swiper/swiper-bundle.js"></script>
     <script src="js/school.min.js"></script>
 </body>
 

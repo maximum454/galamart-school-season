@@ -81,4 +81,19 @@ $(function () {
     }
     const productsGrid = $(".promo-products-grid").slick(promoGridSetting);
 
+
+    const swiperTabs = new Swiper('.swiper-category-tabs', {
+        loop: false,
+        slidesPerView: 'auto',
+        spaceBetween: 2,
+        freeMode: true,
+        watchSlidesVisibility: true,
+        watchSlidesProgress: true,
+        observer: true,
+        slidesOffsetAfter:0,
+        navigation: {
+            nextEl: '.swiper-button-next',
+            prevEl: '.swiper-button-prev',
+        },
+    });
 })

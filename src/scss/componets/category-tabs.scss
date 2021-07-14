@@ -26,11 +26,13 @@
     &__header {
         margin-bottom: 36px;
         padding: 0 20px;
+
     }
     &__menu {
         display: flex;
         align-items: center;
         justify-content: center;
+        position: relative;
     }
     &__menu-item {
         font-style: normal;
@@ -177,6 +179,25 @@
         display: flex;
         align-items: center;
         gap: 15px;
+    }
+    .swiper-slide{
+        width: fit-content;
+    }
+    .swiper-button-prev{
+        background-image: url("../img/swiper-arrow.svg");
+        background-repeat: no-repeat;
+        background-position: center;
+        transform: rotate(-180deg);
+        left: -20px;
+    }
+    .swiper-button-next{
+        background-image: url("../img/swiper-arrow.svg");
+        background-repeat: no-repeat;
+        background-position: center;
+        right: -20px;
+    }
+    .swiper-button-disabled{
+        display: none;
     }
     @include r(767) {
         &__main {

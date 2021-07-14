@@ -2,13 +2,17 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="7d3a13b3-62ca-4e1f-95cb-3fa85a1ec322" name="Default Changelist" comment="fix">
+      <change afterPath="$PROJECT_DIR$/src/img/swiper-arrow.svg" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/build/css/school.css" beforeDir="false" afterPath="$PROJECT_DIR$/build/css/school.css" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/build/css/school.min.css" beforeDir="false" afterPath="$PROJECT_DIR$/build/css/school.min.css" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/build/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/build/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/js/school.js" beforeDir="false" afterPath="$PROJECT_DIR$/build/js/school.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/js/school.min.js" beforeDir="false" afterPath="$PROJECT_DIR$/build/js/school.min.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/scss/componets/promo-products-slider.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/scss/componets/promo-products-slider.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/scss/componets/promo-products.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/scss/componets/promo-products.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/js/school.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/js/school.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/scss/componets/category-tabs.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/scss/componets/category-tabs.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/scss/componets/promo-group.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/scss/componets/promo-group.scss" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -70,7 +74,7 @@
       <updated>1626067236087</updated>
       <workItem from="1626067238340" duration="767000" />
       <workItem from="1626150997963" duration="14769000" />
-      <workItem from="1626233719583" duration="7769000" />
+      <workItem from="1626233719583" duration="9711000" />
     </task>
     <task id="LOCAL-00001" summary="project">
       <created>1626068038681</created>
@@ -240,7 +244,14 @@
       <option name="project" value="LOCAL" />
       <updated>1626240842905</updated>
     </task>
-    <option name="localTasksCounter" value="25" />
+    <task id="LOCAL-00025" summary="fix">
+      <created>1626242207766</created>
+      <option name="number" value="00025" />
+      <option name="presentableId" value="LOCAL-00025" />
+      <option name="project" value="LOCAL" />
+      <updated>1626242207766</updated>
+    </task>
+    <option name="localTasksCounter" value="26" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
