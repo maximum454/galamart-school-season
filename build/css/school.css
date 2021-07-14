@@ -2947,6 +2947,34 @@ a {
     display: block;
   }
 
+  .promo-products__header .btn {
+    width: 16px;
+    height: 16px;
+    color: transparent;
+    border-radius: 50%;
+    font-size: 0;
+    overflow: hidden;
+    display: block;
+    padding: 0;
+    border: 0;
+    background-color: #000;
+    background-image: url("../img/collection-block-btn.svg");
+    background-repeat: no-repeat;
+    background-size: 100%;
+    background-position: center;
+  }
+
+  .promo-products__grid {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    border-radius: 10px;
+    overflow: hidden;
+  }
+
+  .promo-products__left {
+    margin-bottom: 10px;
+  }
+
   .category-list__title {
     font-size: 18px;
     line-height: 23px;
