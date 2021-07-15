@@ -3051,7 +3051,7 @@ $(function () {
 
     const promoSetting = {
         infinite: false,
-        slidesToShow: 1,
+        slidesToShow: 3,
         slidesToScroll: 1,
         dots: true,
         arrows: false,

@@ -163,7 +163,10 @@
             }
         }
     }
-
+    &__banner-img:focus,
+    &__banner-img:hover {
+        transform: scale(1.025);
+    }
     @include r(767){
         display: block;
         &__header {

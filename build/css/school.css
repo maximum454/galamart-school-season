@@ -2407,6 +2407,13 @@ a {
   opacity: 1;
 }
 
+.promo-products__banner-img:focus,
+.promo-products__banner-img:hover {
+  -webkit-transform: scale(1.025);
+      -ms-transform: scale(1.025);
+          transform: scale(1.025);
+}
+
 .category-list {
   padding: 40px 0 60px;
   position: relative;
@@ -2549,6 +2556,14 @@ a {
   display: inline-block;
   vertical-align: middle;
   margin-right: 8px;
+}
+
+.category-list__ul li a {
+  color: #000;
+}
+
+.category-list__ul li a:hover {
+  text-decoration: underline;
 }
 
 .collection-block {
@@ -2971,12 +2986,20 @@ a {
   position: relative;
 }
 
-.promo-products-slider:before {
+.promo-products-slider__item {
+  background-color: #fff;
+  border-radius: 10px;
+  padding: 18px;
+  margin: 0;
+  position: relative;
+}
+
+.promo-products-slider__item:before {
   z-index: 10;
   content: 'Скоро в продаже';
   position: absolute;
   top: 30px;
-  left: -20px;
+  left: -15px;
   background-image: url("../img/slider-label.svg");
   background-size: 100%;
   background-repeat: no-repeat;
@@ -3001,15 +3024,12 @@ a {
   pointer-events: none;
 }
 
-.promo-products-slider__item {
-  background-color: #fff;
-  border-radius: 10px;
-  overflow: hidden;
-  padding: 18px;
-}
-
 .promo-products-slider__img {
   margin-bottom: 10px;
+}
+
+.promo-products-slider__img img {
+  max-width: 100%;
 }
 
 .promo-products-slider__name {
@@ -3020,6 +3040,14 @@ a {
   text-align: center;
   color: #333333;
   margin-bottom: 20px;
+}
+
+.promo-products-slider .slick-list {
+  margin: 0 -15px;
+}
+
+.promo-products-slider .slick-slide {
+  padding: 0 15px;
 }
 
 .promo-products-slider .btn {

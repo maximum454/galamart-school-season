@@ -1,8 +1,18 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="7d3a13b3-62ca-4e1f-95cb-3fa85a1ec322" name="Default Changelist" comment="tabs">
+    <list default="true" id="7d3a13b3-62ca-4e1f-95cb-3fa85a1ec322" name="Default Changelist" comment="add">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/css/school.css" beforeDir="false" afterPath="$PROJECT_DIR$/build/css/school.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/css/school.min.css" beforeDir="false" afterPath="$PROJECT_DIR$/build/css/school.min.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/build/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/js/school.js" beforeDir="false" afterPath="$PROJECT_DIR$/build/js/school.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/js/school.min.js" beforeDir="false" afterPath="$PROJECT_DIR$/build/js/school.min.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/js/school.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/js/school.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/scss/componets/category-list.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/scss/componets/category-list.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/scss/componets/promo-products-slider.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/scss/componets/promo-products-slider.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/scss/componets/promo-products.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/scss/componets/promo-products.scss" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -67,6 +77,8 @@
       <workItem from="1626233719583" duration="10414000" />
       <workItem from="1626245003920" duration="619000" />
       <workItem from="1626261683391" duration="5000" />
+      <workItem from="1626265290393" duration="230000" />
+      <workItem from="1626326966963" duration="1406000" />
     </task>
     <task id="LOCAL-00001" summary="project">
       <created>1626068038681</created>
@@ -264,7 +276,14 @@
       <option name="project" value="LOCAL" />
       <updated>1626245141342</updated>
     </task>
-    <option name="localTasksCounter" value="29" />
+    <task id="LOCAL-00029" summary="add">
+      <created>1626265311038</created>
+      <option name="number" value="00029" />
+      <option name="presentableId" value="LOCAL-00029" />
+      <option name="project" value="LOCAL" />
+      <updated>1626265311038</updated>
+    </task>
+    <option name="localTasksCounter" value="30" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -293,7 +312,8 @@
     <MESSAGE value="fix" />
     <MESSAGE value="slider" />
     <MESSAGE value="tabs" />
-    <option name="LAST_COMMIT_MESSAGE" value="tabs" />
+    <MESSAGE value="add" />
+    <option name="LAST_COMMIT_MESSAGE" value="add" />
   </component>
   <component name="XSLT-Support.FileAssociations.UIState">
     <expand />

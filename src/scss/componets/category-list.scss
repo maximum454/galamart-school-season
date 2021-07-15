@@ -127,6 +127,12 @@
                 vertical-align: middle;
                 margin-right: 8px;
               }
+			a{
+				color: #000;
+				&:hover{
+					text-decoration: underline;
+				}
+			}
 		}
 	}
 	
