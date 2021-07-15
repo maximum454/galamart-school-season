@@ -44,6 +44,30 @@ $(function () {
         slidesToScroll: 1,
         dots: true,
         arrows: false,
+        responsive: [
+            {
+                breakpoint: 1023,
+                settings: {
+                    slidesToShow: 2,
+                    slidesToScroll: 2,
+                }
+            },
+            {
+                breakpoint: 767,
+                settings: {
+                    slidesToShow: 2,
+                    slidesToScroll: 2,
+                }
+            },
+            {
+                breakpoint: 480,
+                settings: {
+                    slidesToShow: 1,
+                    slidesToScroll: 1,
+                    arrows: false,
+                }
+            }
+        ]
     }
     const productsPromo = $(".promo-products-slider").slick(promoSetting);
 
